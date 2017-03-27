@@ -1,7 +1,7 @@
 # LJDrawer
-一句代码，集成抽屉效果
-// 快速创建抽屉控制器，并设为根控制器
-    self.window.rootViewController = [LJDrawerViewController drawerVCWithMainVC:tabBarVC leftMenuVC:leftVC leftWidth:0];
+一句代码，集成抽屉效果 
+// 快速创建抽屉控制器，并设为根控制器 
+    <b>self.window.rootViewController = [LJDrawerViewController drawerVCWithMainVC:tabBarVC leftMenuVC:leftVC leftWidth:0];</b>
     
 # 使用
 ## 初始化
