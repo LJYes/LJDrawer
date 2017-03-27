@@ -1,19 +1,19 @@
 # LJDrawer
- 一句代码，集成抽屉效果 
- // 快速创建抽屉控制器，并设为根控制器 
+ 一句代码，集成抽屉效果<br>
+ // 快速创建抽屉控制器，并设为根控制器<br>
     <b>self.window.rootViewController = [LJDrawerViewController drawerVCWithMainVC:tabBarVC leftMenuVC:leftVC leftWidth:0];</b>
     
 # 使用
 ## 初始化
 #### 只需要传入菜单控制器和原先的根控制器即可
-`/**
-快速创建抽屉控制器
-
-@param mainVC 根控制器
-@param leftMenuVC 左边的控制器
-@param leftWidth 左边的菜单控制器显示的最大范围，默认为屏幕宽度的0.7倍
-@return 抽屉控制器
-*/
+ /**
+ 快速创建抽屉控制器
+ 
+ @param mainVC 根控制器
+ @param leftMenuVC 左边的控制器
+ @param leftWidth 左边的菜单控制器显示的最大范围，默认为屏幕宽度的0.7倍
+ @return 抽屉控制器
+ */
 + (instancetype)drawerVCWithMainVC:(UIViewController *)mainVC leftMenuVC:(UIViewController *)leftMenuVC leftWidth:(CGFloat)leftWidth;`
 
 #### 在AppDelegate里直接调用
