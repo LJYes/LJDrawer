@@ -35,7 +35,7 @@
     /**
      打开左边的菜单
     */
-    - (void)openLeftMenu;
+    - (void)openLeftMenu;
 <br>在需要打开时调用:<br>
 `[[LJDrawerViewController getDrawerViewController] openLeftMenu];`
 
