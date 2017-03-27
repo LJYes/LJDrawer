@@ -36,7 +36,7 @@
      打开左边的菜单
     */
     - (void)openLeftMenu;
-在需要打开时调用:
+<br>在需要打开时调用:
     [[LJDrawerViewController getDrawerViewController] openLeftMenu];
 
 ## 安装 Installation
